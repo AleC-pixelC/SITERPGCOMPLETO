@@ -1,0 +1,69 @@
+.menu {
+    background-color: #f7f7f7;
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#a { color: rgb(0, 191, 255); }
+#b { color: rgb(88, 21, 21); }
+#c { color: green; }
+#d { color: orange; }
+#e { color: red; }
+#f { color: rgb(168, 2, 2); }
+#g { color: blue; }
+#h { color: midnightblue; }
+
+.submenu {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #3a0d0d;
+}
+
+.submenu-left input {
+    padding: 5px 8px;
+    font-size: 14px;
+    border: 1px solid #311212;
+    background-color: #701010;
+    color: white;
+    border-radius: 3px;
+}
+
+.submenu-left input::placeholder {
+    color: #f5b5b5;
+}
+
+.submenu-center .cidade {
+    font-weight: bold;
+    color: white;
+}
+
+.submenu-right span {
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.content p {
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.foto {
+    text-align: center;
+}
