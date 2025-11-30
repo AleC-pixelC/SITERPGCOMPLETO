@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: rgb(41, 2, 77);
+    color: rgb(255, 255, 255);
+}
+
+main{
+    padding: 40px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: fonte;
+    src: url(fontes/Breathe\ Fire.otf);
+}
+
+.link{
+    color: white;
+}
+
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.menu a{
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 200px;
+    padding:14px 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 1px solid #6f00ffc4;
+}
+
+.menu a:hover{
+    color: black;
+    background-color: #6f00ffc4;
+
+}
+p{
+    font-size: 30px;
+}
+#p1{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    background-image: url(fotos/sessao1.jpeg);
+    background-size: 100% 100%;
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#p2{
+    width: 500px;
+    height: 500px;
+    background-image: url(fotos/sessao2.jpeg);
+    background-size: 100% 100%;
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#p3{
+    width: 500px;
+    height: 500px;
+    background-image: url(fotos/sessao3.jpeg);
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#midia {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'fonte';
+    src: url('fontes/Breathe_Fire.otf');
+}

@@ -1,0 +1,56 @@
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    display:flex;
+}
+.menu a{
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 200px;
+    padding: 14px 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid #6f00ffc4;
+}
+.menu a:hover{
+    color: black;
+    background-color: #6f00ffc4;
+}
+div{
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin-right: 20px;
+}
+.personagem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+@font-face {
+    font-family: fonte;
+    src: url(fontes/Breathe\ Fire.otf);
+}
+h1, h4{
+    font-family: fonte;
+    font-size: 28px;
+}
+p{
+    font-family: fonte;
+    font-size: 18px;
+}
+
+body {
+    background-color: rgb(41, 2, 77);
+    color: white;
+}

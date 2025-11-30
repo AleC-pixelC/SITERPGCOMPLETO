@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: rgb(41, 2, 77);
+}
+
+main{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.menu a {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 100px;
+    padding: 14px 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(53, 18, 90);
+}
+
+.menu a:hover{
+    color: black;
+    background-color: rgb(99, 54, 184);
+}
+
+@font-face {
+    font-family: rpg2;
+    src: url(fontes/Breathe\ Fire.otf);
+}
+
+#organizar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#CdD{
+    overflow: auto;
+    font-family: rpg2;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 50px;
+    width: 850px;
+    height: 800px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+.botao {
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: rpg2;
+    font-size: 40px;
+    text-align: right;
+    background-color: rgb(41, 2, 77);
+    color: white;
+}
+
+#OEMO{
+    overflow: auto;
+    font-family: rpg2;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 50px;
+    width: 850px;
+    height: 800px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    font-family: rpg2;
+}
+
+#Informacao {
+    text-align: justify;
+}
+
+.foto1 {
+    width: 800px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
